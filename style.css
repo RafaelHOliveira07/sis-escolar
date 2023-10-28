@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    background: #131313;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    margin-top: 20px;
+    padding: 15px;
+    width: 400px;
+    height: fit-content;
+    background: #fff;
+    align-items: center;
+    text-align: center;
+}
+

@@ -1,0 +1,37 @@
+[
+  {
+    "nome": "Engenharia de Software I",
+    "carga": 60
+  },
+  {
+    "nome": "Design Digital",
+    "carga": 60
+  },
+  {
+    "nome": "Modelagem de Banco de Dados",
+    "carga": 70
+  },
+  {
+    "nome": "Desenvolvimento Web I",
+   "carga": 80
+  },
+  {
+    "nome": "Banco de Dados Relacional",
+    "carga": 70
+  },
+  {
+    "nome": "Algoritmo e Lógica de Programação",
+    "carga": 90
+  },
+  {
+    "nome": "Engenharia de Software II",
+    "carga": 80
+  },  {
+    "nome": "Desenvolvimento Web II",
+    "carga": 70
+  },
+  {
+    "nome": "Técnica de Programação I",
+    "carga": 70
+  } 
+]

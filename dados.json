@@ -1,0 +1,93 @@
+[
+  {
+    "nome": "Vínicius",
+    "turma": "1º DSM",
+    "disciplinas": [
+      {
+        "nome": "Lógica de Programação",
+        "professor": "Júnior"
+      },
+      {
+        "nome": "Desenvolvimento Web I",
+        "professor": "Thiago"
+      }
+    ]
+  },
+  {
+    "nome": "Mônica",
+    "turma": "2º DSM",
+    "disciplinas": [
+      {
+        "nome": "Banco de Dados",
+        "professor": "Matheus"
+      },
+      {
+        "nome": "Desenvolvimento Web II",
+        "professor": "Júnior"
+      },
+      {
+        "nome": "Projeto Integrador",
+        "professor": "Ana Célia"
+      }
+    ]
+  },
+  {
+    "nome": "Pedro",
+    "turma": "3º DSM",
+    "disciplinas": [
+      {
+        "nome": "Banco de Dados",
+        "professor": "Matheus"
+      },
+      {
+        "nome": "Desenvolvimento Web III",
+        "professor": "Júnior"
+      }
+    ]
+  },
+  {
+    "nome": "Bruno",
+    "turma": "3º DSM",
+    "disciplinas": [
+      {
+        "nome": "Banco de Dados",
+        "professor": "Matheus"
+      },
+      {
+        "nome": "Desenvolvimento Web III",
+        "professor": "Júnior"
+      },
+      {
+        "nome": "Tecnica de Programação II",
+        "professor": "Júnior"
+      },
+      {
+        "nome": "Gestão agil de projeto de software",
+        "professor": "Ana Celia"
+      }
+    ]
+  }
+  ,
+  {
+    "nome": "Jane Doe",
+    "turma": "4º DSM",
+    "disciplinas": [
+      {
+        "nome": "Desenvolvimento Android",
+        "professor": "John Doe"
+      },
+      {
+        "nome": "Desenvolvimento Web IV",
+        "professor": "Lorem Ipsum"
+      },
+      {
+        "nome": "Banco de Dados Não Relacional",
+        "professor": "Mateus Guilherme"
+      },
+      {
+        "nome": "Sistemas operacionais e redes",
+        "professor": "John Doe"
+      }
+    ]
+  }
+]
