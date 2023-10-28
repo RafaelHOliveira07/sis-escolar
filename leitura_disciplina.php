@@ -15,6 +15,7 @@ foreach($data as $dado){
     $disciplina = new Disciplina();
     
     $disciplina->nomeDisciplina = $dado['nome'];
+    $disciplina->nomeProfessor = $dado['professor'];
     $disciplina->cargaHoraria = $dado['carga'];
     $disciplina->inserir();
 }

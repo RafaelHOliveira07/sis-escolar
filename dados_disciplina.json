@@ -1,37 +1,46 @@
 [
   {
     "nome": "Engenharia de Software I",
+    "professor": "Ana Celia",
     "carga": 60
   },
   {
     "nome": "Design Digital",
+    "professor": "Thiago",
     "carga": 60
   },
   {
     "nome": "Modelagem de Banco de Dados",
+    "professor": "Matheus",
     "carga": 70
   },
   {
     "nome": "Desenvolvimento Web I",
+    "professor": "Junior",
    "carga": 80
   },
   {
     "nome": "Banco de Dados Relacional",
+    "professor": "Matheus",
     "carga": 70
   },
   {
     "nome": "Algoritmo e Lógica de Programação",
+    "professor": "Junior",
     "carga": 90
   },
   {
     "nome": "Engenharia de Software II",
+    "professor": "Ana Celia",
     "carga": 80
   },  {
     "nome": "Desenvolvimento Web II",
+    "professor": "Junior",
     "carga": 70
   },
   {
     "nome": "Técnica de Programação I",
+    "professor": "Maromo",
     "carga": 70
   } 
 ]

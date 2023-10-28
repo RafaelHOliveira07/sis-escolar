@@ -2,6 +2,7 @@
     class Disciplina {
         public $id;
         public $nomeDisciplina;
+        public $nomeProfessor;
         public $cargaHoraria;
 
         public function __construct($id = false){
@@ -12,10 +13,11 @@
         }
 
         public function inserir(){
-            $sql = "INSERT INTO tb_disciplinas (nomeDisciplina, cargaHoraria) VALUES ('{$this->nomeDisciplina}', '{$this->cargaHoraria}')";
+            $sql = "INSERT INTO tb_disciplinas (nomeDisciplina,nomeProfessor, cargaHoraria) VALUES ('{$this->nomeDisciplina}','{$this->nomeProfessor}', '{$this->cargaHoraria}')";
             $conexao = new PDO('mysql:host=127.0.0.1;dbname=sis-escolar','root','');
             $conexao->exec($sql);
             echo "Registro gravado com sucesso!";
+            echo $sql;
         }
 
         public function listar(){
@@ -34,6 +36,7 @@
             $linha = $resultado->fetch();
  
             $this->nomeDisciplina = $linha['nomeDisciplina'];
+            $this->nomeProfessor = $linha['nomeProfessor'];
             $this->cargaHoraria = $linha['cargaHoraria'];
         }
 

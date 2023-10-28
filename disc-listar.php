@@ -19,7 +19,9 @@
         <tr>
             <th>Código</th>
             <th>Disciplina</th>
+            <th>Nome professor</th>
             <th>Carga Horária</th>
+            
             <th>Ações</th>
          
         </tr>
@@ -27,6 +29,7 @@
         <tr>
             <td><?php echo $linha['id']?></td>
             <td><?php echo $linha['nomeDisciplina']?></td>
+            <td><?php echo $linha['nomeProfessor']?></td>
             <td><?php echo $linha['cargaHoraria']?></td>
             <td><a href="#">Atualizar</a>
             <a href="#">Excluir</a></td>
